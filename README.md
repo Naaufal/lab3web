@@ -41,3 +41,6 @@ Untuk menggabungkan sel data kita bisa menggunakan atribut rowspan dan juga cols
 untuk membuat form kita dapat menggunakan tag 'form' dan dengan atribut action dan method. Atribut action untuk menentukan aksi yang akan digunakan pada saat form dikirim. Dan method adalah untuk menentukan metode yang digunakan dalam mengirimkan data.
 
 ![image](https://github.com/user-attachments/assets/07364cbe-4282-4b48-bb80-4ab82be2afbb)
+
+hias menggunakan style
+![image](https://github.com/user-attachments/assets/9be5bf39-7c9a-4846-90d0-d12a6ce7404d)
