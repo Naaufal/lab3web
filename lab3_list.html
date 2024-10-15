@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML lanjutan</title>
+    <style>
+        form p > label{
+            display: inline-block;
+            width: 100px;
+        }
+
+        form input[type="text"], form textarea{
+        border: 1px solid #197a43;
+        }
+        
+        form input[type="submit"] {
+            border: 1px solid #197a43;
+            background-color: #197a43;
+            color: #fff;
+            font-weight: 600;
+            padding: 5px 15px;
+        }
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <h1>membuat list</h1>
+    </header>
+    <section id="order-list">
+      <h3>Ordered list</h3>
+      <ol>
+        <li>Pemrograman Web</li>
+        <li>Sistem Informasi</li>
+        <li>Basis Data 2</li>
+      </ol>
+    </section>
+    <section id="unrdered-list">
+      <h3>Unordered List</h3>
+      <ul type="square">
+        <li>Jaringan Komputer</li>
+        <li>Struktur Data</li>
+        <li>Algoritma & Pemrograman</li>
+      </ul>
+    </section>
+    <section id="unorder-list">
+      <h3>Description list</h3>
+      <dl>
+        <dt>Fakultas Teknik</dt>
+        <dd>teknik industri</dd>
+        <dd>teknik informatika</dd>
+        <dd>teknik sipil</dd>
+        <dt>Fakultas Ekonomi dan Bisnis</dt>
+        <dd>akuntansi</dd>
+        <dd>manajemen</dd>
+        <dd>Bisnis Digital</dd>
+      </dl>
+    </section>
+    <header>
+      <h1>Membuat Table</h1>
+    </header>
+    <table border="1" cellpadding="4" cellspacing="0">
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Fakultas</th>
+          <th>Program Studi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Teknik</td>
+          <td>Teknik informatika</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Teknik industri</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Teknik Lingkungan</td>
+        </tr>
+      </tbody>
+    </table>
+    <header>
+      <h1>Membuat Form</h1>
+    </header>
+    <form action="proses.php" method="post">
+      <fieldset>
+        <legend>Data Pelanggan</legend>
+        <p>
+          <label for="nama">nama</label>
+          <input type="text" id="nama" name="nama" />
+        </p>
+        <p>
+          <label for="alamat">alamat</label>
+          <textarea name="alamat" id="alamat" cols="20" rows="3"></textarea>
+        </p>
+        <p>
+          <label>Jenis Kelamin</label>
+          <input type="radio" id="Jk_l" name="kelamin" value="L" /><label
+            for="Jk_l"
+            >Laki-laki</label
+          >
+          <input type="radio" id="Jk_P" name="kelamin" value="P" /><label
+            for="Jk_P"
+            >Perempuan</label
+          >
+        </p>
+        <p><input type="submit" value="login" /></p>
+      </fieldset>
+    </form>
+  </body>
+</html>
